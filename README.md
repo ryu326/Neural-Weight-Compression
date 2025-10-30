@@ -6,7 +6,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-We have to download Llama models from HuggingFace:
+Before generating dataset, we have to download checkpoints of Llama from HuggingFace:
 ```
 cd ./dataset
 python down_hf_model.py
